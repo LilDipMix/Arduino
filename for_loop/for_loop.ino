@@ -1,4 +1,4 @@
-const int motor = 6;
+const int motor = 6; 
 
 void setup() {
   // put your setup code here, to run once:
@@ -9,7 +9,7 @@ void setup() {
 
   for(int i = start_val; i <= end_val; i++) {
     Serial.println(i);
-    analogWrite(motor,255)
+    analogWrite(motor,255);
     delay(1000);
     digitalWrite(motor,LOW);
   }
